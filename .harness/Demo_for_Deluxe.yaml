@@ -1,0 +1,9 @@
+pipeline:
+  name: Demo for Deluxe
+  identifier: Demo_for_Deluxe
+  template:
+    templateRef: account.Demo_for_Deluxe
+    versionLabel: V1
+  tags: {}
+  projectIdentifier: GitX_Demo
+  orgIdentifier: default
