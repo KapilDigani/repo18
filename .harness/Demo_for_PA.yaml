@@ -23,7 +23,7 @@ pipeline:
                     source:
                       type: Inline
                       spec:
-                        script: echo "Hello Palo Alto"
+                        script: echo "Hello Palo Alto from feature branch"
                     environmentVariables: []
                     outputVariables: []
                   timeout: 10m
