@@ -1,6 +1,6 @@
 pipeline:
   name: Demo for PA
-  identifier: Demo_for_PA
+  identifier: import_pa
   projectIdentifier: KD_Git_Ex
   orgIdentifier: KD
   tags: {}
