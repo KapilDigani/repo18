@@ -1,0 +1,30 @@
+pipeline:
+  name: Demo for PA
+  identifier: Demo_for_PA
+  projectIdentifier: KD_Git_Ex
+  orgIdentifier: KD
+  tags: {}
+  stages:
+    - stage:
+        name: Custom
+        identifier: Custom
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: ShellScript
+                  name: Shell Script_1
+                  identifier: ShellScript_1
+                  spec:
+                    shell: Bash
+                    onDelegate: true
+                    source:
+                      type: Inline
+                      spec:
+                        script: echo "Hello Palo Alto - from import"
+                    environmentVariables: []
+                    outputVariables: []
+                  timeout: 10m
+        tags: {}
