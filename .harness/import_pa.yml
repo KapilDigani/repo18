@@ -1,5 +1,5 @@
 pipeline:
-  name: Import PA
+  name: import pa
   identifier: import_pa
   projectIdentifier: KD_Git_Ex
   orgIdentifier: KD
